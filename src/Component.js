@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 
-class  Car extends React.Component{
+class  Component extends React.Component{
     constructor(props) {
         super(props);
         this.state = {favoritecolor: "blue"};
@@ -25,4 +25,4 @@ class  Car extends React.Component{
 
 }
 
-export default Car
+export default Component
