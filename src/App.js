@@ -66,7 +66,7 @@ class App extends React.Component {
     render() {
         const list_show = this.state.list.map((row) => {
             return(
-                <Car id={row.key} key={row.key} cheaked={row.cheaked} tell={row.tell} content={row.name} cheakchange={this.chakedupdate}/>
+                <Component id={row.key} key={row.key} cheaked={row.cheaked} tell={row.tell} content={row.name} cheakchange={this.chakedupdate}/>
             )
         })
         return (
