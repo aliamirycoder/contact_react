@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Car from "./Car";
+import Component from "./Component";
 import UUID from 'uuid/dist/v1';
 import User from './user1'
 
